@@ -3,7 +3,7 @@
  */
 
 var EventEmitter = require('events').EventEmitter;
-var spawn = require('child_process').spawn;
+var spawn = require('child-process-debug').spawn;
 var readlink = require('graceful-readlink').readlinkSync;
 var path = require('path');
 var dirname = path.dirname;

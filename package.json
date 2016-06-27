@@ -1,5 +1,5 @@
 {
-  "name": "commander",
+  "name": "commander-debug",
   "version": "2.9.0",
   "description": "the complete solution for node.js command-line programs",
   "keywords": [
@@ -29,6 +29,7 @@
     "index.js"
   ],
   "dependencies": {
+    "child-process-debug": "0.0.7",
     "graceful-readlink": ">= 1.0.0"
   }
 }
